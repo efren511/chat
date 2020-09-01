@@ -1,9 +1,9 @@
 <?php
 
 $servidor = "localhost";
-$usuario = "id14741732_robot";;
-$clave = "9786070125935Luis#511";
-$base = "id14741732_efrenchii";
+$usuario = "usuario";;
+$clave = "clave";
+$base = "base_de_datos";
 
 $conexion = new mysqli($servidor, $usuario, $clave, $base);
 
