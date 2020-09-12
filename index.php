@@ -6,7 +6,7 @@ include 'db-conexion.php';
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Unidad</title>
+    <title>ChatBook</title>
     <link rel="stylesheet" href="estilos.css">
      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
      <script type="text/javascript">
