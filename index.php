@@ -49,6 +49,15 @@ include 'db-conexion.php';
       }
 
        ?>
+       <form class="" action="index.php" method="post">
+         <input type="submit" name="borrar" value="Limpiar Chay">
+         <?php
+         if (isset($_POST['borrar'])) {
+           $consulta = "TRUNCATE TABLE chat";
+           $ejecutar = $conexion->query($consulta);
+         }
+          ?>
+       </form>
     </div>
   </body>
 </html>
