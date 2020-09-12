@@ -50,7 +50,7 @@ include 'db-conexion.php';
 
        ?>
        <form class="" action="index.php" method="post">
-         <input type="submit" name="borrar" value="Limpiar Chay">
+         <input type="submit" name="borrar" value="Limpiar Chat">
          <?php
          if (isset($_POST['borrar'])) {
            $consulta = "TRUNCATE TABLE chat";
